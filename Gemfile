@@ -16,12 +16,13 @@ gem 'devise', '~> 3.5.1'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
-  gem 'sqlite3'
   gem 'debugger'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'sqlite3'
 end
 
+
 group :production do
-  gem 'rails_12factor'
+  gem 'pg'
 end
