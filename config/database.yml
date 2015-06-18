@@ -3,3 +3,9 @@ development:
   adapter: postgresql
   database: recipes
   host: localhost
+
+
+production:
+  adapter: postgresql
+  database: recipes
+  host: localhost
