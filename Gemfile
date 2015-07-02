@@ -14,6 +14,7 @@ gem 'paperclip', '~> 4.2.2'
 gem 'bootstrap-sass', '~> 3.3.4.1'
 gem 'cocoon', '~> 1.2.6'
 gem 'devise', '~> 3.5.1'
+gem 'aws-sdk', '~> 2.1.2'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do

@@ -1,4 +1,10 @@
 
+test:
+  adapter: postgresql
+  database: recipes
+  host: localhost
+
+
 development:
   adapter: postgresql
   database: recipes
